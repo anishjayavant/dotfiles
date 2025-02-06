@@ -19,3 +19,5 @@ ssh-keygen -t rsa -b 4096 -C "anish.sj@gmail.com"
 # Create a folder for development/code
 
 # Clone the vagrants and dotfiles repos
+
+# Copy the .gitconfig file from dotfiles into home
