@@ -18,6 +18,8 @@ ssh-keygen -t rsa -b 4096 -C "anish.sj@gmail.com"
 
 # Create a folder for development/code
 
-# Clone the vagrants and dotfiles repos
+# Clone the dotfiles repos
 
 # Copy the .gitconfig file from dotfiles into home
+
+# Install UTM app and start an Ubuntu VM
