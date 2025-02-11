@@ -22,4 +22,10 @@ ssh-keygen -t rsa -b 4096 -C "anish.sj@gmail.com"
 
 # Copy the .gitconfig file from dotfiles into home
 
-# Install UTM app and start an Ubuntu VM
+# Install brew 
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# Install Vagrant and QEMU using brew
+brew install vagrant
+brew install qemu
+
