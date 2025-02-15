@@ -17,10 +17,14 @@ ssh-keygen -t rsa -b 4096 -C "anish.sj@gmail.com"
 # https://github.com/settings/keys
 
 # Create a folder for development/code
+mkdir -p ${HOME}/code
+cd ${HOME}/code
 
 # Clone the dotfiles repos
+git clone git@github.com:anishjayavant/dotfiles.git
 
 # Copy the .gitconfig file from dotfiles into home
+# Look into the use of stow for symlinking gitconfig and zshrc
 
 # Install brew 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -28,4 +32,16 @@ ssh-keygen -t rsa -b 4096 -C "anish.sj@gmail.com"
 # Install Vagrant and QEMU using brew
 brew install vagrant
 brew install qemu
+
+# Check out the vagrants repo
+git clone git@github.com:anishjayavant/vagrants.git
+
+# cd into the vagrant repo
+cd ${HOME}/code/vagrants
+
+# Start the vagrant
+vagrant up
+
+# Add to ssh config
+vagrant ssh-config | tee -a ~/.ssh/config
 
