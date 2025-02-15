@@ -36,12 +36,10 @@ brew install qemu
 # Check out the vagrants repo
 git clone git@github.com:anishjayavant/vagrants.git
 
-# cd into the vagrant repo
-cd ${HOME}/code/vagrants
+# Check out the provisioners repo
+git clone git@github.com:anishjayavant/vagrant-provisioners.git
 
-# Start the vagrant
-vagrant up
+# Install vscode
+brew install --cask visual-studio-code
 
-# Add to ssh config
-vagrant ssh-config | tee -a ~/.ssh/config
 
