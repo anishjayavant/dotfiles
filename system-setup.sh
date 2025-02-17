@@ -16,6 +16,9 @@ ssh-keygen -t rsa -b 4096 -C "anish.sj@gmail.com"
 # Add the key to GitHub
 # https://github.com/settings/keys
 
+# Install GPG
+brew install gpg
+
 # Create a folder for development/code
 mkdir -p ${HOME}/code
 cd ${HOME}/code
@@ -42,4 +45,4 @@ git clone git@github.com:anishjayavant/vagrant-provisioners.git
 # Install vscode
 brew install --cask visual-studio-code
 
-
+# Spin up dev environment as needed from vagrant-provisioners using the start_dev_env.sh script
