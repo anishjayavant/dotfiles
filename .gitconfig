@@ -3,6 +3,7 @@
 # Please adapt and uncomment the following lines:
 name = Anish Jayavant
 email = anish.sj@gmail.com
+	signingkey = F3B4C8C6A5F54861
 
 [alias]
 p = push
@@ -23,3 +24,5 @@ ch = cherry-pick
 dc = diff --cached
 pl = pull
 f = fetch
+[commit]
+	gpgSign = true
