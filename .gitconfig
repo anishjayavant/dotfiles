@@ -26,3 +26,5 @@ pl = pull
 f = fetch
 [commit]
 gpgSign = true
+[tag]
+gpgSign = true
