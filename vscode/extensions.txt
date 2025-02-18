@@ -18,5 +18,6 @@ ms-vscode.remote-explorer
 pkief.material-icon-theme
 rust-lang.rust-analyzer
 shopify.ruby-lsp
+vadimcn.vscode-lldb
 whizkydee.material-palenight-theme
 ziyasal.vscode-open-in-github
