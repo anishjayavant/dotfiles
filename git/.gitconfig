@@ -27,4 +27,6 @@ f = fetch
 [commit]
 gpgSign = true
 [tag]
-gpgSign = true
+	gpgSign = true
+[init]
+	defaultBranch = main
