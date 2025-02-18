@@ -35,6 +35,7 @@ git clone git@github.com:anishjayavant/dotfiles.git
 
 # Copy the .gitconfig file from dotfiles into home
 # Look into the use of stow for symlinking gitconfig and zshrc
+cp ${HOME}/code/dotfiles/.gitconfig ${HOME}/.gitconfig
 
 # Install brew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
