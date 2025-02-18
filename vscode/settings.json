@@ -1,0 +1,9 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.folders.theme": "specific",
+    "workbench.colorTheme": "GitHub Dark",
+    "terminal.integrated.fontSize": 15,
+    "editor.fontSize": 14,
+    "files.autoSave": "afterDelay",
+    "editor.formatOnSave": true
+}

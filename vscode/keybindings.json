@@ -1,0 +1,19 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "cmd+k shift+up",
+        "command": "editor.action.fontZoomIn"
+    },
+    {
+        "key": "cmd+k shift+down",
+        "command": "editor.action.fontZoomOut"
+    },
+    {
+        "key": "cmd+k alt+up",
+        "command": "workbench.action.terminal.fontZoomIn"
+    },
+    {
+        "key": "alt+k alt+down",
+        "command": "workbench.action.terminal.fontZoomOut"
+    }
+]
