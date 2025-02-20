@@ -6,6 +6,7 @@ email = 36860630+anishjayavant@users.noreply.github.com
 signingkey = F3B4C8C6A5F54861
 
 [alias]
+poc = push --set-upstream origin `g branch --show-current`
 p = push
 pf = push --force
 cm = commit -m
