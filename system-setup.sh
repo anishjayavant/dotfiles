@@ -11,7 +11,7 @@ git clone --depth 1 https://github.com/unixorn/fzf-zsh-plugin.git ${ZSH_CUSTOM:-
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
 # Generate SSH key for the box
-ssh-keygen -t rsa -b 4096 -C "anish.sj@gmail.com"
+ssh-keygen -t rsa -b 4096 -C "36860630+anishjayavant@users.noreply.github.com"
 
 # Add the key to GitHub
 # https://github.com/settings/keys
@@ -44,9 +44,6 @@ cp ${HOME}/code/dotfiles/.gitconfig ${HOME}/.gitconfig
 brew install vagrant
 brew install qemu
 
-# Check out the vagrants repo
-git clone git@github.com:anishjayavant/vagrants.git
-
 # Check out the provisioners repo
 git clone git@github.com:anishjayavant/vagrant-provisioners.git
 
@@ -58,4 +55,4 @@ brew install --cask visual-studio-code
 # Spin up dev environment as needed from vagrant-provisioners using the start_dev_env.sh script in the
 # vagrant-provisioners repo
 cd ${HOME}/code/vagrant-provisioners
-./start_dev_env.sh -u git@github.com:anishjayavant/valkeyrie.git -r qemu -f ./rust-dev.Vagrantfile
+./start_dev_env.sh -u git@github.com:anishjayavant/prodcast.git -r qemu -f ./rust-dev.Vagrantfile
